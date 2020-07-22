@@ -1,5 +1,5 @@
 import React from 'react';
-import {View, SafeAreaView, StatusBar} from 'react-native';
+import {View, SafeAreaView, StatusBar, TouchableHighlight} from 'react-native';
 import {colors} from '../../../theme';
 import styles from './styles';
 import {Button, Form, Input, Item} from 'native-base';
@@ -70,7 +70,9 @@ export class PreAssessmentQuestions extends React.Component {
         <StatusBar backgroundColor={colors.gray5} barStyle="light-content" />
         <View style={styles.SafeAreaView}>
           <View style={styles.containerHeader}>
-            <Icon name="x" color={colors.gray1} size={27} />
+            <TouchableHighlight underlayColor={'transparent'} onPress={()=>{this.props.navigation.goBack()}}>
+              <Icon name="x" color={colors.gray1} size={27} />
+            </TouchableHighlight>
             <Text type={'regular'} style={styles.textHeader}>
               Edit Detail
             </Text>

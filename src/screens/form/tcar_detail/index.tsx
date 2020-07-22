@@ -19,23 +19,24 @@ export class PreAssessmentQuestions extends React.Component {
 
   componentDidMount() {
     this.setState({
-      buttonDisabled: true,
+      buttonDisabled: false,
     });
   }
 
   _handleSubmit = async () => {
-    if (this.state.tcarNo == 0) {
-      alert('Please insert your table number');
+    if (this.state.tableNum == 0) {
+      // alert('Please insert your table number');
     } else {
       const data = {
-        table: this.state.tcarNo
+        table: this.state.tableNum
       };
 
       try {
         await this.props.dispatch(input(data));
-        this.props.navigation.navigate('Result');
+        // this.props.navigation.navigate('Result');
       } catch (err) {
-        alert('Cannot register your table! \nPlease try again!');
+        this.props.navigation.navigate('cash_details');
+        // alert('Cannot register your table! \nPlease try again!');
       }
     }
   }

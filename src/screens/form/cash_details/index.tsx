@@ -19,7 +19,7 @@ export class PreAssessmentQuestions extends React.Component {
 
   componentDidMount() {
     this.setState({
-      buttonDisabled: true,
+      buttonDisabled: false,
     });
   }
 
@@ -33,9 +33,10 @@ export class PreAssessmentQuestions extends React.Component {
 
       try {
         await this.props.dispatch(input(data));
-        this.props.navigation.navigate('Result');
+        // this.props.navigation.navigate('Result');
       } catch (err) {
-        alert('Cannot register your table! \nPlease try again!');
+        this.props.navigation.navigate('notes_remarks');
+        // alert('Cannot register your table! \nPlease try again!');
       }
     }
   }

@@ -1,5 +1,5 @@
 import React from 'react';
-import {View, SafeAreaView, StatusBar} from 'react-native';
+import {View, SafeAreaView, StatusBar, TouchableHighlight} from 'react-native';
 import {colors} from '../../../theme';
 import styles from './styles';
 import {Button, Form, Input, Item} from 'native-base';
@@ -23,7 +23,8 @@ export class PreAssessmentQuestions extends React.Component {
 
   _handleSubmit = async () => {
     if (this.state.tcarNo == 0) {
-      alert('Please insert your table number');
+      this.props.navigation.navigate('tcar_detail');
+      // alert('Please insert your table number');
     } else {
       const data = {
         table: this.state.tcarNo

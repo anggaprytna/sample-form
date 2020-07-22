@@ -19,7 +19,7 @@ export class PreAssessmentQuestions extends React.Component {
 
   componentDidMount() {
     this.setState({
-      buttonDisabled: true,
+      buttonDisabled: false,
     });
   }
 
@@ -35,7 +35,8 @@ export class PreAssessmentQuestions extends React.Component {
         await this.props.dispatch(input(data));
         this.props.navigation.navigate('Result');
       } catch (err) {
-        alert('Cannot register your table! \nPlease try again!');
+        this.props.navigation.navigate('file_attachments');
+        // alert('Cannot register your table! \nPlease try again!');
       }
     }
   }
@@ -53,8 +54,8 @@ export class PreAssessmentQuestions extends React.Component {
           isVisible={this.state.isModalVisible}>
           <View style={{marginHorizontal: 0}}>
             <View style={styles.containerModal}>
-              <Text type={'semibold'} size={16}>Delete Detail</Text>
-              <Text type={'regular'} size={16} style={{marginTop: 10}}>Are you sure wanna delete this detail?</Text>
+              <Text type={'semibold'} size={16}>Delete Notes</Text>
+              <Text type={'regular'} size={16} style={{textAlign: 'center'}}>Are you sure wanna delete this notes?</Text>
               <View style={{flexDirection: 'row', marginTop: 10}}>
                 <TouchableHighlight underlayColor={'transparent'} onPress={() => {this.toggleModal()}}>
                   <View style={{backgroundColor: 'white', width: 120, marginRight: 10, borderWidth: 1, borderColor: colors.gray2, borderRadius: 5, height: 50, justifyContent: 'center'}}>

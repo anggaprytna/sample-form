@@ -1,5 +1,5 @@
 import React from 'react';
-import {View, SafeAreaView, StatusBar} from 'react-native';
+import {View, SafeAreaView, StatusBar, TouchableHighlight} from 'react-native';
 import {colors} from '../../theme';
 import styles from './styles';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
