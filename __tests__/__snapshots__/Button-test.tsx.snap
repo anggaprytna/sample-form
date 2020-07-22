@@ -1,0 +1,153 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button 1`] = `
+Object {
+  "buttonDark": <View
+    accessible={true}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#000",
+          "borderRadius": 15,
+          "marginHorizontal": 20,
+          "paddingVertical": 20,
+          "transform": Array [
+            Object {
+              "scale": 1,
+            },
+          ],
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#FFF",
+              "fontWeight": "bold",
+            },
+            false,
+            false,
+          ]
+        }
+      >
+        asd
+      </Text>
+    </View>
+  </View>,
+  "buttonLight": <View
+    accessible={true}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#f4f4f4",
+          "borderRadius": 15,
+          "marginHorizontal": 20,
+          "paddingVertical": 20,
+          "transform": Array [
+            Object {
+              "scale": 1,
+            },
+          ],
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            false,
+            false,
+            Object {
+              "color": "#4B4F71",
+              "fontWeight": "bold",
+            },
+          ]
+        }
+      >
+        asd
+      </Text>
+    </View>
+  </View>,
+  "buttonPrimary": <View
+    accessible={true}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#003F6D",
+          "borderRadius": 6,
+          "marginHorizontal": 20,
+          "paddingVertical": 15,
+          "transform": Array [
+            Object {
+              "scale": 1,
+            },
+          ],
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            false,
+            Object {
+              "color": "#FFF",
+              "fontWeight": "bold",
+            },
+            false,
+          ]
+        }
+      >
+        asd
+      </Text>
+    </View>
+  </View>,
+}
+`;

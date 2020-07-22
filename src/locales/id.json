@@ -1,0 +1,9 @@
+{
+  "app-name": "klola-performance",
+  "menu": {
+    "home": "Beranda",
+    "account": "Akun",
+    "history": "Riwayat",
+    "inbox": "Inbox",
+  }
+}

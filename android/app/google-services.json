@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "672182323367",
+    "firebase_url": "https://sholatyukapp.firebaseio.com",
+    "project_id": "sholatyukapp",
+    "storage_bucket": "sholatyukapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:672182323367:android:195fe653e4f0d2a423f382",
+        "android_client_info": {
+          "package_name": "com.tynative"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "672182323367-fbao30o8dm8rut0pp5crm8q879u4rkq8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMlMB6ACCVPZSqmNC8YU9klp3eG8i6fWI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "672182323367-fbao30o8dm8rut0pp5crm8q879u4rkq8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

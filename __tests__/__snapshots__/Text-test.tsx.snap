@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Text 1`] = `
+Object {
+  "TextDark": <Text
+    style={
+      Array [
+        Object {
+          "fontFamily": "Gilroy-Light",
+          "fontSize": 16,
+        },
+        Array [
+          false,
+          Object {
+            "fontSize": 16,
+          },
+          false,
+          false,
+        ],
+        undefined,
+      ]
+    }
+  >
+    asd
+  </Text>,
+  "TextLight": <Text
+    style={
+      Array [
+        Object {
+          "fontFamily": "Gilroy-Light",
+          "fontSize": 16,
+        },
+        Array [
+          false,
+          false,
+          Object {
+            "fontSize": 16,
+          },
+          false,
+        ],
+        undefined,
+      ]
+    }
+  >
+    asd
+  </Text>,
+  "TextPrimary": <Text
+    style={
+      Array [
+        Object {
+          "fontFamily": "Gilroy-Light",
+          "fontSize": 16,
+        },
+        Array [
+          false,
+          false,
+          false,
+          Object {
+            "fontSize": 16,
+            "fontWeight": "bold",
+          },
+        ],
+        undefined,
+      ]
+    }
+  >
+    asd
+  </Text>,
+  "textThin": <Text
+    style={
+      Array [
+        Object {
+          "fontFamily": "Gilroy-Light",
+          "fontSize": 16,
+        },
+        Array [
+          Object {
+            "fontSize": 16,
+          },
+          false,
+          false,
+          false,
+        ],
+        undefined,
+      ]
+    }
+  >
+    asd
+  </Text>,
+}
+`;
